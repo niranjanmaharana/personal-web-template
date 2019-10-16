@@ -41,7 +41,6 @@
     color: #fff;
     font-size: 16px;
     padding: 38px 25px;
-    font-family: montserrat, sans-serif;
     text-transform: capitalize;
     line-height: 12px;
 }
@@ -49,6 +48,10 @@
 .dropdown .dropdown-menu {
     padding: 0px !important;
     border-radius: 5px;
+    color: #fff !important;
+    transition: all .5s;
+    overflow: hidden;
+    background-color: #ea5267;
 }
 
 .dropdown .dropdown-menu .dropdown-item {
@@ -57,6 +60,10 @@
     color: #fff !important;
     background-color: #ea5267;
     text-transform: capitalize;
+}
+
+.dropdown-menu.collapsing {
+    display: block;
 }
 
 .banner_part {
