@@ -1,0 +1,73 @@
+.about_part {
+    background-color: #0a0b4d;
+}
+
+.section_padding {
+    padding: 140px 0;
+}
+
+.about_part h4 {
+    font-size: 16px;
+    color: #ea5267;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+.about_part .about_text .experiance {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 55px;
+}
+
+.about_part .about_text .experiance h2 {
+    font-size: 120px;
+    color: #ffd200;
+    font-weight: 700;
+    display: inline-block;
+    line-height: 84px;
+}
+
+.about_part .about_text .experiance p span {
+    display: block;
+}
+
+.about_part .experiance_list .experiance_list_iner {
+    columns: 2;
+}
+
+.about_part .experiance_list .experiance_list_iner .single_experiance_list {
+    margin-bottom: 31px;
+}
+
+.about_part .experiance_list .experiance_list_iner .single_experiance_list h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.about_part .experiance_list .experiance_list_iner .single_experiance_list p {
+    font-size: 16px;
+    color: #c5c5c5;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 576px) {
+    .section_padding {
+        padding: 70px 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .about_part h4 {
+        margin-bottom: 25px;
+    }
+
+    .about_part .about_text .experiance {
+        margin-bottom: 25px;
+    }
+
+    .about_part .about_text .experiance h2 {
+        font-size: 80px;
+        line-height: 55px;
+    }
+}
