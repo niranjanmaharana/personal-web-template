@@ -124,7 +124,7 @@
     background-size: contain;
     top: 0;
     z-index: -1;
-    background: url(../img/banner_overlay_1.png) top left no-repeat;
+    background: url(../images/banner_overlay_1.png) top left no-repeat;
 }
 
 @media (max-width: 991px) {
