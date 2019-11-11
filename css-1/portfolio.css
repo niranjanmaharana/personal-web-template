@@ -1,17 +1,13 @@
-.portfolio_area {
+.portfolio-area {
     position: relative;
     z-index: 1;
 }
 
-.section-padding {
-    padding: 140px 0;
-}
-
-.section_tittle {
+.section-tittle {
     margin-bottom: 76px;
 }
 
-.section_tittle p {
+.section-tittle p {
     color: #ea5267;
     font-size: 15px;
     text-transform: uppercase;
@@ -19,7 +15,7 @@
     line-height: 14px;
 }
 
-.section_tittle h2 {
+.section-tittle h2 {
     font-size: 36px;
     color: #0a0b4d;
     line-height: 48px;
@@ -29,34 +25,27 @@
     margin-top: 22px;
 }
 
-.portfolio_area .grid-sizer,
-.portfolio_area .grid-item {
+.portfolio-area .grid-sizer,
+.portfolio-area .grid-item {
     width: 33.33%;
 }
 
-.portfolio_area .grid-item {
+.portfolio-area .grid-item {
     position: relative;
     z-index: 1;
     text-align: center;
     float: left;
     height: 350px;
+    cursor: pointer;
 }
 
-.portfolio_area img {
+.portfolio-area img {
     width: 100%;
     height: 100%;
 }
 
-.portfolio_area .big_weight {
-    width: 66.66%;
-}
-
-.portfolio_area .big_height {
-    height: 700px;
-}
-
-.portfolio_area .grid-item .portfolio_hover_text i {
-    color: #fff;
+.portfolio-area .grid-item .portfolio-hover-text i {
+    color: #ea5267;
     font-size: 25px;
     position: absolute;
     top: 48%;
@@ -70,13 +59,13 @@
     transition: .5s;
 }
 
-.portfolio_area .grid-item:after {
+.portfolio-area .grid-item:after {
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #ea5267;
+    /* background-color: #ea5267; */
     content: "";
     opacity: 0;
     z-index: 2;
@@ -84,13 +73,17 @@
     transition: .5s;
 }
 
-.portfolio_area .grid-item:hover:after {
+.portfolio-area .grid-item:hover:after {
     opacity: .5;
     padding: 10px;
 }
 
-.portfolio_area .grid-item:hover .portfolio_hover_text i {
+.portfolio-area .grid-item:hover .portfolio-hover-text i {
     opacity: 1;
+}
+
+.portfolio-area .grid-item:hover img {
+    opacity: 0.5;
 }
 
 @media only screen and (max-width: 767px) and (min-width: 576px) {
@@ -98,28 +91,28 @@
         padding: 70px 0;
     }
 
-    .section_tittle h2 {
+    .section-tittle h2 {
         font-size: 25px;
         line-height: 35px;
         margin-bottom: 15px;
     }
 
-    .portfolio_area .btn-more {
+    .portfolio-area .btn-more {
         margin-bottom: 30px;
     }
 }
 
 @media (max-width: 991px) {
-    .section_tittle {
+    .section-tittle {
         margin-bottom: 40px;
     }
 
-    .portfolio_area .grid-sizer,
-    .portfolio_area .grid-item {
+    .portfolio-area .grid-sizer,
+    .portfolio-area .grid-item {
         width: 50%;
     }
 
-    .portfolio_area .grid-item {
+    .portfolio-area .grid-item {
         height: auto;
     }
 }

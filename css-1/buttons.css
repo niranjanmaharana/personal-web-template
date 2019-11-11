@@ -2,9 +2,9 @@
     border-radius: 0;
     display: inline-block;
     padding: 13.5px 45px;
-    background-color: #ea5267;
+    background-color: #ffffff;
     font-size: 14px;
-    color: #fff;
+    color: #ea5267;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
@@ -13,8 +13,8 @@
 }
 
 .btn-contact:hover {
-    color: #fff !important;
-    background: #0d0f5b !important;
+    color: #ffffff;
+    background: transparent;
     box-shadow: 0 15px 20px rgba(0, 0, 0, .3);
 }
 
@@ -62,6 +62,24 @@
 .btn-submit:hover {
     color: #ea5267 !important;
     background-color: transparent;
+}
+
+.btn-download {
+    display: inline-block;
+    font-size: 14px;
+    color: #90acd1;
+    text-transform: capitalize;
+    -webkit-transition: .5s;
+    transition: .5s;
+    padding: 14.5px 43px;
+    background-color: #ffffff;
+    border: 2px solid #90acd1;
+}
+
+.btn-download:hover {
+    color: #ffffff !important;
+    background-color: transparent;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, .3);
 }
 
 @media only screen and (max-width: 767px) and (min-width: 576px) {

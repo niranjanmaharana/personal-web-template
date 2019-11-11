@@ -1,25 +1,17 @@
-.about_area {
-    background-color: #0a0b4d;
-}
-
-.section-padding {
-    padding: 140px 0;
-}
-
-.about_area h4 {
+.about-area h4 {
     font-size: 16px;
     color: #ea5267;
     text-transform: uppercase;
     margin-bottom: 70px;
 }
 
-.about_area .about-text .experiance {
+.about-area .about-text .experiance {
     display: flex;
     align-items: flex-end;
     margin-top: 55px;
 }
 
-.about_area .about-text .experiance h2 {
+.about-area .about-text .experiance h2 {
     font-size: 120px;
     color: #ffd200;
     font-weight: 700;
@@ -27,25 +19,25 @@
     line-height: 84px;
 }
 
-.about_area .about-text .experiance p span {
+.about-area .about-text .experiance p span {
     display: block;
 }
 
-.about_area .experiance_list .experiance_list_iner {
+.about-area .experiance-list .experiance-list-iner {
     columns: 2;
 }
 
-.about_area .experiance_list .experiance_list_iner .single_experiance_list {
+.about-area .experiance-list .experiance-list-iner .single-experiance-list {
     margin-bottom: 31px;
 }
 
-.about_area .experiance_list .experiance_list_iner .single_experiance_list h5 {
+.about-area .experiance-list .experiance-list-iner .single-experiance-list h5 {
     font-size: 18px;
     color: #fff;
     margin-bottom: 12px;
 }
 
-.about_area .experiance_list .experiance_list_iner .single_experiance_list p {
+.about-area .experiance-list .experiance-list-iner .single-experiance-list p {
     font-size: 16px;
     color: #c5c5c5;
 }
@@ -57,15 +49,15 @@
 }
 
 @media (max-width: 991px) {
-    .about_area h4 {
+    .about-area h4 {
         margin-bottom: 25px;
     }
 
-    .about_area .about-text .experiance {
+    .about-area .about-text .experiance {
         margin-bottom: 25px;
     }
 
-    .about_area .about-text .experiance h2 {
+    .about-area .about-text .experiance h2 {
         font-size: 80px;
         line-height: 55px;
     }

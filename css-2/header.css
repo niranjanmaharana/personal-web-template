@@ -31,6 +31,7 @@
 
 .main_menu .social_icon a:hover {
     box-shadow: 0 15px 20px rgba(0, 0, 0, .3);
+    color: #ea5267;
 }
 
 .main_menu .main-menu-item ul li .nav-link:hover {
@@ -66,7 +67,7 @@
     display: block;
 }
 
-.banner_part {
+.banner_area {
     height: 1075px;
     position: relative;
     background-image: url(../images/banner_bg_1.png);
@@ -77,24 +78,24 @@
     background-color: #0d0f5b;
 }
 
-.banner_part .banner_text {
+.banner_area .banner_text {
     display: table;
     width: 100%;
     height: 1075px;
     padding-top: 40px;
 }
 
-.banner_part .banner_text .banner_text_iner {
+.banner_area .banner_text .banner_text_iner {
     display: table-cell;
     vertical-align: middle;
 }
 
-.banner_part .banner_text h5 {
+.banner_area .banner_text h5 {
     font-size: 30px;
     color: #fff;
 }
 
-.banner_part .banner_text h1 {
+.banner_area .banner_text h1 {
     font-size: 80px;
     font-weight: 400;
     margin-bottom: 65px;
@@ -103,7 +104,7 @@
     margin-top: 35px;
 }
 
-.banner_part:before {
+.banner_area:before {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -115,7 +116,7 @@
     background: url(../images/banner_overlay_2.png) top left no-repeat;
 }
 
-.banner_part:after {
+.banner_area:after {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -181,18 +182,18 @@
         padding: 20px 0;
     }
 
-    .banner_part {
+    .banner_area {
         height: 650px;
         background-image: none !important;
     }
 
-    .banner_part .banner_text {
+    .banner_area .banner_text {
         text-align: center;
         padding-top: 0;
         height: 700px;
     }
 
-    .banner_part .banner_text h1 {
+    .banner_area .banner_text h1 {
         font-size: 30px;
         margin-bottom: 20px;
         margin-top: 15px;

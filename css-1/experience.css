@@ -1,0 +1,42 @@
+.single-job:hover {
+    cursor: pointer;
+    border: 1px solid #ea5267;
+}
+
+.single-job {
+    background-color: #f9f9ff;
+    padding: 40px 30px;
+    margin-bottom: 30px;
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+    border: 1px solid transparent;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.single-job .top-left h4 {
+    color: #000;
+    font-size: 18px;
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+    font-weight: 700;
+}
+
+.single-job .company {
+    font-size: 15px;
+    font-weight: 700;
+    color: #777;
+}
+
+.single-job .duration {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.single-job .description {
+    text-align: justify;
+}

@@ -1,0 +1,51 @@
+.single-skill {
+    font-size: 13px;
+    border-radius: 4px;
+}
+
+.single-skill p {
+    border-radius: 4px;
+    color: white;
+    padding: 0px 2px 0px 10px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.color-lightsalmon {
+    background-color: #FFA07A;
+}
+
+.color-coral {
+    background-color: #FF7F50;
+}
+
+.color-tomato {
+    background-color: #FF6347;
+}
+
+.color-orangered {
+    background-color: #FF4500;
+}
+
+.color-darkorange {
+    background-color: #FF8C00;
+}
+
+.color-orange {
+    background-color: #FFA500;
+}
+
+.color-indianred {
+    background-color: #CD5C5C;
+}
+
+.color-lightcoral {
+    background-color: #F08080;
+}
+
+.color-salmon {
+    background-color: #FA8072;
+}
+
+.color-darksalmon {
+    background-color: #E9967A;
+}
