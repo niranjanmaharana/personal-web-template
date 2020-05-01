@@ -74,7 +74,7 @@
 .banner-area {
     height: 1075px;
     position: relative;
-    background-image: url(../images/banner-bg-1.png);
+    /* background-image: url(../images/banner-bg-1.png); */
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right bottom;
@@ -140,7 +140,6 @@
     .navbar-brand img {
         display: none;
     }
-
     .navbar-light .navbar-toggler {
         border-color: transparent;
         position: absolute;
@@ -151,20 +150,16 @@
         padding: 0px;
         color: #e45447;
     }
-
     .main-menu .main-menu-item .nav-item .nav-link {
         padding: 5px 15px !important;
         color: #ffffff;
     }
-
     .main-menu .main-menu-item {
         text-align: left !important;
     }
-
     .home-menu .main-menu-item {
         padding-left: 0;
     }
-
     .navbar-collapse {
         z-index: 9999 !important;
         position: absolute;
@@ -174,30 +169,24 @@
         background: rgba(1, 1, 1, 0.8);
         text-align: center !important;
     }
-
     .main-menu .main-menu-item .nav-item {
         padding: 10px 15px !important;
     }
-
     .main-menu .main-menu-item .nav-item {
         padding: 10px 15px !important;
     }
-
     .main-menu {
         padding: 20px 0;
     }
-
     .banner-area {
         height: 650px;
         background-image: none !important;
     }
-
     .banner-area .banner-text {
         text-align: center;
         padding-top: 0;
         height: 700px;
     }
-
     .banner-area .banner-text h1 {
         font-size: 30px;
         margin-bottom: 20px;

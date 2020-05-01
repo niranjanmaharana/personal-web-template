@@ -15,6 +15,7 @@
 
 .contact-area .form-control {
     color: #777;
+    border-radius: 0px;
 }
 
 .contact-area .form-control::-webkit-input-placeholder {
@@ -35,7 +36,7 @@
     font-size: 27px;
 }
 
-.contact-info .media-body h3, 
+.contact-info .media-body h3,
 .contact-info .media-body a {
     font-size: 16px;
     margin-bottom: 0;
