@@ -10,7 +10,7 @@
 
 .contact h2:before,
 .contact h2:after {
-    background-color: #777;
+    /* background-color: #777; */
 }
 
 .contact-area .form-control {
