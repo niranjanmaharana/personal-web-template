@@ -1,3 +1,7 @@
+.about-area {
+    text-align: justify;
+}
+
 .about-area h4 {
     font-size: 16px;
     color: #ea5267;
@@ -52,11 +56,9 @@
     .about-area h4 {
         margin-bottom: 25px;
     }
-
     .about-area .about-text .experiance {
         margin-bottom: 25px;
     }
-
     .about-area .about-text .experiance h2 {
         font-size: 80px;
         line-height: 55px;
