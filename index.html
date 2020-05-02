@@ -365,6 +365,17 @@
                     $(this).append(startCntnt);
                 }
             });
+
+            $(window).scroll(function(e) {
+                var $el = $('.main-menu');
+                var _class = $($el).attr('class');
+                if ($(this).scrollTop() > 100 && _class.indexOf('main-menu-sticky') < 0) {
+                    $el.addClass('main-menu-sticky');
+                }
+                if ($(this).scrollTop() < 100 && _class.indexOf('main-menu-sticky') >= 0) {
+                    $el.removeClass('main-menu-sticky');
+                }
+            });
         });
     </script>
 </body>

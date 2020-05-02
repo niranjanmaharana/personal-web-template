@@ -158,6 +158,19 @@ section:nth-child(1) {
     color: white;
 }
 
+.main-menu-sticky {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 0;
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    color: white;
+}
+
 @media only screen and (max-width: 767px) and (min-width: 576px) {
     .section-padding {
         padding: 70px 0;
