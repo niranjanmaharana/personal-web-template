@@ -38,6 +38,10 @@
     color: #777;
 }
 
+.single-job .company i {
+    color: rgb(69, 137, 238);
+}
+
 .single-job .duration {
     font-size: 15px;
     font-weight: 600;
